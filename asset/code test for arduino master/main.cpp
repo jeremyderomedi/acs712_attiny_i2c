@@ -10,7 +10,7 @@ void setup()
 
 void loop()
 {
-    Wire.requestFrom(8, 6); // request 6 bytes from peripheral device #8
+    Wire.requestFrom(0X01, 2); // request 2 bytes from peripheral device #0x01
 
     while (Wire.available())
     {                         // peripheral may send less than requested
