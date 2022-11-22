@@ -1,0 +1,4 @@
+this code is for an attiny85 to test i2c and acs712
+use program_via_ArduinoISP env to upload code by custom programmer
+
+if upload fail, hold reset button of arduino nano, upload and release reset button.
